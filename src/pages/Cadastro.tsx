@@ -1,7 +1,7 @@
 const Cadastro = function () {
     return (
         <>
-        Cadastro
+        
         </>
     );
 };
