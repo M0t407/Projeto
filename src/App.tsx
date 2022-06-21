@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Principal from './components/Moldura';
-import Contacts from './pages/Contacts';
 import Cadastro from './pages/Cadastro';
+import AddContas from './pages/AddContas';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/login' element={<Login></Login>} />
           <Route path='/' element={<Principal><Dashboard /></Principal>} />
-          <Route path='/contacts' element={<Principal><Contacts /></Principal>} />
+          <Route path='/addcontas' element={<Principal><AddContas /></Principal>} />
           <Route path='/cadastro' element={<Principal><Cadastro /></Principal>} />
         </Routes>
       </BrowserRouter>

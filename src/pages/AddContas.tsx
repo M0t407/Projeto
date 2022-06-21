@@ -1,4 +1,4 @@
-const Contacts = function () {
+const AddContas = function () {
     return (
         <>
         Contacts
@@ -6,4 +6,4 @@ const Contacts = function () {
     );
 };
 
-export default Contacts;
+export default AddContas;
